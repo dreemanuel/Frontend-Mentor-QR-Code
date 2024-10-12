@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    align-content: center;
+    margin: auto;
+    font-family: Outfit;
+}
+
+/*
+body {
+}
+*/
+
+.main_frame {
+    width: 100%;
+    height: 960px;
+    background: rgba(213,225,239,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    align-content: center;
+}
+.card {
+    width: 319px;
+    height: 498px;
+    background: rgba(255,255,255,1);
+    padding: 16px 16px 40px 16px;
+    gap: 24px;
+    display: grid;
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.04765181243419647);
+    overflow: hidden;
+    margin: auto;
+}
+
+.qr-box {
+    background-image: url('../images/image-qr-code.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+    margin: 0px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 131px;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    gap: 16px;
+}
+
+.heading {
+    font-size: 22px;
+    color: rgba(31,49,79,1);
+    width: 256px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    font-family: Outfit;
+    font-weight: Bold;
+}
+
+.text_body{
+    color: rgba(104,119,141,1);
+    font-weight: Regular;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    width: 256px;
+}
+
+
+.text_footer{
+    color: rgba(104,119,141,1);
+    font-weight: Regular;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin: auto;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: 11px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    align-items: center;
+}
+
